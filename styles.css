@@ -423,14 +423,82 @@ footer.footer p {
   .navbar {
     padding: 0.8rem 0;
   }
+  
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
   .fp-section {
     padding-top: 100px;
     padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+  
+  .section-inner {
+    width: 100%;
+  }
+  
   .gallery-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
+  
   .hero-section h1 {
     font-size: 2.5rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  h2 {
+    font-size: 1.4rem !important;
+  }
+  
+  .btn-pink, .btn-outline-pink {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  .d-flex.gap-3 {
+    flex-direction: column;
+  }
+  
+  .d-flex.gap-3 .btn {
+    width: 100%;
+  }
+  
+  .model-3d-iframe {
+    min-height: 280px;
+  }
+  
+  .modal-gallery-content {
+    max-width: 95%;
+    max-height: 80vh;
+  }
+  
+  .modal-gallery-close {
+    top: -1.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .symbol-mark {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .section-inner::before {
+    width: 80px;
+    height: 80px;
+    top: -1rem;
+    right: -1rem;
+  }
+  
+  .section-concept .section-inner::before {
+    width: 90px;
+    height: 90px;
   }
 }
