@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+  <rect width="1200" height="800" rx="40" fill="#f3f7ff"/>
+  <path d="M380 680 C340 500 340 380 500 340 C620 310 720 340 740 430 C780 560 720 700 620 720 C580 730 520 730 500 710 C450 690 410 710 380 680 Z" fill="#fff" stroke="#4a8cff" stroke-width="14"/>
+  <path d="M500 340 C490 280 520 240 580 240 C640 240 670 280 660 340" fill="#e9f1ff" stroke="#4a8cff" stroke-width="12"/>
+  <path d="M460 680 L420 760" stroke="#4a8cff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M660 680 L700 760" stroke="#4a8cff" stroke-width="18" stroke-linecap="round"/>
+  <text x="220" y="160" fill="#4a8cff" font-family="Inter, sans-serif" font-size="52" font-weight="700">Silla terminada</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+  <rect width="1200" height="800" rx="40" fill="#edf3ff"/>
+  <path d="M150 220 L1050 220 L1050 580 L150 580 Z" fill="#fff" stroke="#a8befe" stroke-width="12"/>
+  <path d="M240 560 L240 260 L520 260" fill="none" stroke="#4a8cff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M780 560 L780 320 L540 320" fill="none" stroke="#4a8cff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="600" cy="380" r="90" fill="#dde7ff" stroke="#4a8cff" stroke-width="14"/>
+  <text x="220" y="180" fill="#4a8cff" font-family="Inter, sans-serif" font-size="52" font-weight="700">Cortes</text>
+</svg>

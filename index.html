@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silla rosa selvática</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Silla Estetica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="0">Inicio</button></li>
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="1">Concepto</button></li>
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="2">Planimetría</button></li>
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="3">Modelados 3D</button></li>
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="4">Proceso</button></li>
+          <li class="nav-item"><button class="nav-link btn-link" type="button" data-section="5">Fotos</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="fullpage">
+    <section class="fp-section active" data-index="0">
+      <div class="section-inner container text-center">
+        <span class="eyebrow">Bienvenidos</span>
+        <h1 class="display-4 fw-bold">Silla con estetica moderna</h1>
+        <p class="lead text-muted mx-auto">Una presentación por secciones sin scroll. El diseño combina una paleta femenina con vegetación exuberante, texturas orgánicas y un aire tropical.</p>
+        <div class="mt-4">
+          <button class="btn btn-pink btn-lg me-2" data-section="1">Ver Concepto</button>
+          <button class="btn btn-outline-pink btn-lg" data-section="2">Ver Planimetría</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section section-concept" data-index="1">
+      <div class="section-inner container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <span class="eyebrow">Concepto</span>
+            <div class="symbol-mark mx-lg-0 mx-auto mb-4"></div>
+            <h2 class="fw-bold">Diseño inspirado en la selva</h2>
+            <p class="text-muted">La silla se inspira en la selva: curvas de hojas, volumen natural y texturas como corteza y pétalo. El diseño es femenino, fresco y con un aire botánico suave.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-card p-4">
+              <h3 class="h5">Características clave</h3>
+              <ul class="list-unstyled mb-0">
+                <li>• Curvas orgánicas inspiradas en hojas tropicales</li>
+                <li>• Texturas naturales y acabados suaves</li>
+                <li>• Detalles vegetales y una atmósfera botánica</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button class="btn btn-pink btn-lg" data-section="2">Siguiente sección</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section" data-index="2">
+      <div class="section-inner container text-center">
+        <span class="eyebrow">Planimetría</span>
+        <h2 class="fw-bold">Vistas técnicas y detalles</h2>
+        <p class="text-muted mx-auto" style="max-width: 650px;">Imágenes de planimetría del diseño, con cortes y medidas claras que muestran la estructura orgánica y las líneas suaves del estilo selvático.</p>
+        <div class="gallery-grid mt-4">
+          <figure class="gallery-item" data-src="images/page_1.png">
+            <img src="images/page_1.png" alt="Planimetría 1">
+            <figcaption>Detalle 1.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-src="images/page_2.png">
+            <img src="images/page_2.png" alt="Planimetría 2">
+            <figcaption>Detalle 2.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-src="images/page_3.png">
+            <img src="images/page_3.png" alt="Planimetría 3">
+            <figcaption>Detalle 3.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-src="images/page_4.png">
+            <img src="images/page_4.png" alt="Planimetría 4">
+            <figcaption>Detalle 4.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-src="images/page_5.png">
+            <img src="images/page_5.png" alt="Planimetría 5">
+            <figcaption>Detalle 5.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-src="images/page_6.png">
+            <img src="images/page_6.png" alt="Planimetría 6">
+            <figcaption>Detalle 6.</figcaption>
+          </figure>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button class="btn btn-pink btn-lg" data-section="3">Siguiente sección</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section" data-index="3">
+      <div class="section-inner container text-center">
+        <span class="eyebrow">Modelados 3D</span>
+        <h2 class="fw-bold">Ejemplo de SketchUp</h2>
+        <p class="text-muted mx-auto" style="max-width: 650px;">Aquí tienes un ejemplo visual de un modelo 3D creado en SketchUp. Reemplaza este mockup con tu propia exportación o captura de pantalla.</p>
+        <div class="model-3d-preview rounded-4 overflow-hidden shadow-sm mx-auto mt-5" style="max-width: 720px;">
+          <iframe class="model-3d-iframe" src="https://3dwarehouse.sketchup.com/warehouse?search=" title="Ejemplo SketchUp 3D" frameborder="0" loading="lazy"></iframe>
+          <figcaption class="p-3 bg-white text-muted">Ejemplo de embed de SketchUp. Reemplaza el src con tu exportación o captura real.</figcaption>
+        </div>
+        <div class="d-flex justify-content-center mt-5 gap-3">
+          <button class="btn btn-outline-pink btn-lg" data-section="2">Anterior</button>
+          <button class="btn btn-pink btn-lg" data-section="4">Siguiente sección</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section" data-index="4">
+      <div class="section-inner container">
+        <span class="eyebrow">Proceso</span>
+        <h2 class="fw-bold text-center">Cómo se construye</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+          <div class="col">
+            <div class="process-card p-4 text-center">
+              <div class="process-number">1</div>
+              <h3 class="h5 mt-3">Diseño</h3>
+              <p class="mb-0 text-muted">Prototipos y planos con cuidado estético.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="process-card p-4 text-center">
+              <div class="process-number">2</div>
+              <h3 class="h5 mt-3">Construcción</h3>
+              <p class="mb-0 text-muted">Ensamblaje preciso y acabados suaves.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="process-card p-4 text-center">
+              <div class="process-number">3</div>
+              <h3 class="h5 mt-3">Acabado</h3>
+              <p class="mb-0 text-muted">Cepillado y protección para un resultado impecable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button class="btn btn-pink btn-lg" data-section="5">Siguiente sección</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section" data-index="5">
+      <div class="section-inner container text-center">
+        <span class="eyebrow">Fotos</span>
+        <h2 class="fw-bold">Silla terminada</h2>
+        <p class="text-muted mx-auto" style="max-width: 640px;">Imagen representativa del resultado final, con una estética femenina y elegante.</p>
+        <figure class="gallery-item rounded-4 overflow-hidden shadow-sm mx-auto mt-5" style="max-width: 720px;">
+          <img src="images/silla-terminada.svg" alt="Silla terminada">
+          <figcaption class="p-3 bg-white text-muted">Vista general de la silla terminada.</figcaption>
+        </figure>
+        <div class="d-flex justify-content-center mt-5 gap-3">
+          <button class="btn btn-outline-pink btn-lg" data-section="4">Anterior</button>
+          <button class="btn btn-pink btn-lg" data-section="0">Inicio</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="modalGallery" class="modal-gallery">
+    <div class="modal-gallery-content">
+      <button class="modal-gallery-close" id="modalClose">&times;</button>
+      <img id="modalImage" src="" alt="Imagen ampliada">
+    </div>
+  </div>
+
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p class="mb-0">Silla rosa · Presentación seccional</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const sections = document.querySelectorAll('.fp-section');
+    const buttons = document.querySelectorAll('[data-section]');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const modal = document.getElementById('modalGallery');
+    const modalImage = document.getElementById('modalImage');
+    const modalClose = document.getElementById('modalClose');
+
+    function showSection(index) {
+      sections.forEach((section, i) => {
+        section.classList.toggle('active', i === index);
+        section.classList.toggle('inactive', i !== index);
+      });
+      buttons.forEach(btn => {
+        if (btn.classList.contains('nav-link')) {
+          btn.classList.toggle('active-link', Number(btn.dataset.section) === index);
+        }
+      });
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        showSection(Number(btn.dataset.section));
+      });
+    });
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const src = item.dataset.src;
+        modalImage.src = src;
+        modal.classList.add('active');
+      });
+    });
+
+    modalClose.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+
+    showSection(0);
+  </script>
+</body>
+</html>
